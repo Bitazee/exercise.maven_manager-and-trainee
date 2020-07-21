@@ -12,8 +12,8 @@ public class NullaryConstructorTest {
     @Test
     public void test() {
         // given
-        Double expectedSpecialAllowance = 250.80;
-        Double expectedHra = 1000.50;
+        Double expectedSpecialAllowance = null;
+        Double expectedHra = null;
 
         // when
         Manager manager = new Manager();
